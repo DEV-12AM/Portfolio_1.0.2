@@ -1,0 +1,238 @@
+/* Project Details Page Styles */
+
+/* Container for project details */
+.container {
+    padding: 20px; /* Padding around the container */
+    background-color: #161b22; /* Dark background for contrast */
+    border: 1px solid #30363d; /* Border for definition */
+    border-radius: 6px; /* Rounded corners */
+    margin: 20px auto; /* Center the container */
+    max-width: 800px; /* Limit the width */
+}
+
+/* Project title styles */
+h2 {
+    color: #c9d1d9; /* Light color for headings */
+    font-size: 2rem; /* Larger font size for emphasis */
+    margin-bottom: 15px; /* Space below headings */
+}
+
+/* Code sample styles */
+.code-sample {
+    background-color: #21262d; /* Dark background for code samples */
+    padding: 15px; /* Padding around code */
+    border-radius: 6px; /* Rounded corners */
+    border: 1px solid #30363d; /* Border for definition */
+    overflow-x: auto; /* Allow horizontal scrolling */
+    white-space: pre; /* Preserve whitespace in code */
+    font-family: 'Courier New', Courier, monospace; /* Monospace font for code */
+}
+
+/* Project description styles */
+#project-info {
+    margin-bottom: 20px; /* Space below project info */
+}
+
+/* Responsive styles for project details */
+@media (max-width: 768px) {
+    .container {
+        margin: 10px; /* Reduce margin on smaller screens */
+        padding: 15px; /* Reduce padding on smaller screens */
+    }
+
+    h2 {
+        font-size: 1.5rem; /* Smaller font size for headings */
+    }
+}
+
+
+
+
+/* Main Portfolio Page Styles */
+
+/* Global Styles */
+body {
+    font-family: 'Inter', sans-serif; /* Font for the entire page */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    background-color: #0d1117; /* Dark background color */
+    color: #c9d1d9; /* Light text color */
+    line-height: 1.6; /* Line height for readability */
+}
+
+/* Header Styles */
+header {
+    background-color: #161b22; /* Dark header background */
+    padding: 20px 20px; /* Padding for header */
+    text-align: center; /* Center text in header */
+    border-bottom: 1px solid #30363d; /* Bottom border for header */
+}
+
+    header h1 {
+        margin: 0; /* Remove default margin */
+        font-size: 2.5rem; /* Large font size for name */
+        color: #c9d1d9; /* Light color for name */
+    }
+
+    header p {
+        margin: 10px 0 0; /* Margin for subtitle */
+        font-size: 1.2rem; /* Font size for subtitle */
+        color: #8b949e; /* Slightly darker color for subtitle */
+    }
+
+/* Navigation Styles */
+nav {
+    display: flex; /* Flexbox for navigation */
+    justify-content: center; /* Center navigation items */
+    background-color: #161b22; /* Dark background for nav */
+    padding: 10px 0; /* Padding for nav */
+    border-bottom: 1px solid #30363d; /* Bottom border for nav */
+}
+
+    nav a {
+        margin: 0 15px; /* Margin between nav items */
+        font-weight: 500; /* Medium font weight */
+        color: #c9d1d9; /* Light color for nav links */
+        transition: color 0.3s; /* Transition for hover effect */
+    }
+
+        nav a:hover {
+            color: #58a6ff; /* Change color on hover */
+        }
+
+/* Container Styles */
+.container {
+    max-width: 800px; /* Max width for containers */
+    margin: 40px auto; /* Center containers with margin */
+    padding: 20px; /* Padding for containers */
+    background-color: #161b22; /* Dark background for containers */
+    border: 1px solid #30363d; /* Border for containers */
+    border-radius: 6px; /* Rounded corners */
+}
+
+/* Section Heading Styles */
+h2 {
+    color: #c9d1d9; /* Light color for section headings */
+    font-size: 1.8rem; /* Font size for section headings */
+    margin-top: 0px; /* Remove top margin */
+    margin-bottom: 20px; /* Margin below headings */
+    border-bottom: 1px solid #30363d; /* Bottom border for headings */
+    padding-bottom: 10px; /* Padding below headings */
+}
+
+/* Skills Section Styles */
+.skills {
+    display: grid; /* Grid layout for skills */
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive grid */
+    gap: 20px; /* Gap between skill items */
+}
+
+.skill {
+    background-color: #21262d; /* Dark background for skill items */
+    padding: 15px; /* Padding for skill items */
+    border-radius: 6px; /* Rounded corners */
+    border: 1px solid #30363d; /* Border for skill items */
+}
+
+    .skill h3 {
+        margin: 0 0 10px; /* Margin for skill title */
+        font-size: 1.2rem; /* Font size for skill title */
+        color: #c9d1d9; /* Light color for skill title */
+    }
+
+    .skill p {
+        margin: 0; /* Remove margin for skill description */
+        color: #8b949e; /* Slightly darker color for skill description */
+    }
+
+/* Projects Section Styles */
+.projects {
+    display: grid; /* Grid layout for projects */
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive grid */
+    gap: 20px; /* Gap between project items */
+}
+
+.project {
+    background-color: #21262d; /* Dark background for project items */
+    padding: 20px; /* Padding for project items */
+    border-radius: 6px; /* Rounded corners */
+    border: 1px solid #30363d; /* Border for project items */
+    transition: transform 0.3s, box-shadow 0.3s; /* Transition for hover effect */
+}
+
+    .project:hover {
+        transform: translateY(-5px); /* Lift effect on hover */
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Shadow effect on hover */
+    }
+
+    .project h3 {
+        margin: 0 0 10px; /* Margin for project title */
+        font-size: 1.3rem; /* Font size for project title */
+        color: #c9d1d9; /* Light color for project title */
+    }
+
+    .project p {
+        margin: 0 0 15px; /* Margin for project
+    /* Margin for project description */
+        color: #8b949e; /* Slightly darker color for project description */
+    }
+
+    .project a {
+        display: inline-block; /* Inline block for project links */
+        background-color: #238636; /* Green background for buttons */
+        color: #fff; /* White text color for buttons */
+        padding: 8px 12px; /* Padding for buttons */
+        border-radius: 6px; /* Rounded corners for buttons */
+        font-weight: 500; /* Medium font weight for buttons */
+        transition: background-color 0.3s; /* Transition for hover effect */
+    }
+
+        .project a:hover {
+            background-color: #2ea043; /* Darker green on hover */
+        }
+
+/* Contact Section Styles */
+#contact {
+    margin-top: 20px; /* Margin above contact section */
+}
+
+    #contact p {
+        margin: 5px 0; /* Margin for contact paragraphs */
+    }
+
+/* Footer Styles */
+footer {
+    text-align: center; /* Center text in footer */
+    padding: 20px; /* Padding for footer */
+    background-color: #161b22; /* Dark background for footer */
+    border-top: 1px solid #30363d; /* Top border for footer */
+    margin-top: 40px; /* Margin above footer */
+}
+
+    footer p {
+        margin: 0; /* Remove default margin */
+        color: #8b949e; /* Slightly darker color for footer text */
+    }
+
+    footer a {
+        color: #58a6ff; /* Light blue color for footer links */
+    }
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        margin: 20px; /* Reduce margin on smaller screens */
+    }
+
+    h2 {
+        font-size: 1.5rem; /* Smaller font size for headings */
+    }
+
+    .skills {
+        grid-template-columns: 1fr; /* Stack skills on smaller screens */
+    }
+
+    .projects {
+        grid-template-columns: 1fr; /* Stack projects on smaller screens */
+    }
+}
